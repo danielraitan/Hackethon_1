@@ -4,6 +4,12 @@ body{
     border: 3px dashed yellowgreen;
     font-family: 'Brush Script MT', cursive;
 }
+h1{
+    font-size: 45px;
+}
+h4{
+    font-size: 20px;
+}
 #container{
     border: 3px dashed yellowgreen;
     background-color: rgb(70, 70, 72);
@@ -14,28 +20,13 @@ body{
     padding: 10px;
     text-align: center;
 }
-h1{
-    font-size: 45px;
-    text-transform: uppercase;
-}
-#tryagain{
-    margin-left:25%; 
-}
-#next{
-    margin-left:40%;
-}
-#button, #next, #tryagain{
-    background-color: rgb(70, 70, 72);
-    color: rgb(250, 247, 243);
-    border: 2px solid yellowgreen;
-    border-radius: 5px;
-}
-div{
+.section{
     padding: 10px;
 }
-#badresult{
-    color: red;
-}
-#timeup{
-    color: red;
+a {
+    color: inherit; 
+    text-decoration: inherit;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    padding: 5px;
 }
