@@ -10,6 +10,8 @@ const node = document.createTextNode(question())
 document.getElementById("question").append(node)
 
 function question(){
+// for the hard level then if the operator was * or / so then you can have different options for firstNum
+// and secndNumb for example for * i will use two digist and not 3, and for / i will use only 2 for the second number.
 
     firstNum = Math.floor(Math.random() * 900) + 100;
     secondNum = Math.floor(Math.random() * 900) + 100;

@@ -3,6 +3,9 @@ let secondNum;
 let realAnswer;
 let flag = true;
 
+// Here if your elements need to be display none in the beggining of the game so i will 
+// directly set the css display property to none in the css file instead of here with javascript.
+
 document.getElementById("tryagain").style.display = "none";
 document.getElementById("next").style.display = "none";
 
@@ -10,6 +13,10 @@ const node = document.createTextNode(question())
 document.getElementById("question").append(node)
 
 function question(){
+
+// to implement different operations you could had create here an array od operations like 
+// operation = ['-', '*', '/', '+'], then select a random one for each question and use it to calculate
+// the answer to so you can use same code but add more operators.
 
     firstNum = Math.floor(Math.random() * 90) + 10;
     secondNum = Math.floor(Math.random() * 90) + 10;
