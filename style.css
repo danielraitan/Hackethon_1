@@ -2,7 +2,7 @@ body{
     background-color: rgb(150, 150, 119);
     color: rgb(250, 247, 243);
     border: 3px dashed yellowgreen;
-    font-family: 'Lucida Handwriting', cursive;
+    /* font-family: 'Lucida Handwriting', cursive; */
 }
 #container{
     border: 3px dashed yellowgreen;
@@ -22,7 +22,7 @@ h1{
     margin-left:25%; 
 }
 #next{
-    margin-left:40%;
+    margin-left:9.5em;
 }
 #button, #next, #tryagain{
     background-color: rgb(70, 70, 72);
@@ -38,4 +38,14 @@ div{
 }
 #timeup{
     color: red;
+}
+.backButton{
+    background-color: rgb(70, 70, 72);
+    color: rgb(250, 247, 243);
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    margin-right: 21em;
+    padding: 4px;
+    font-size: small;
+    text-decoration: none;
 }
